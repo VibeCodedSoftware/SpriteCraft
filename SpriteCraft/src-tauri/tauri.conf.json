@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "SpriteCraft",
+  "version": "1.0.0",
+  "identifier": "com.craftapps.spritecraft",
+  "build": {
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "SpriteCraft",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 1024,
+        "minHeight": 640,
+        "maximized": true,
+        "dragDropEnabled": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": false,
+    "publisher": "CraftApps",
+    "copyright": "SpriteCraft contributors",
+    "shortDescription": "SpriteCraft pixel art and sprite animation editor",
+    "longDescription": "SpriteCraft: a pixel art and sprite animation editor that sends sprites to GameCraft and LogicCraft.",
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/icon.png", "icons/icon.ico"]
+  }
+}
