@@ -11,7 +11,7 @@ together.
 
 ## Download
 
-Get the latest version from the [Releases page](https://github.com/DFairGamz/SpriteCraft/releases/latest):
+Get the latest version from the [Releases page](https://github.com/VibeCodedSoftware/SpriteCraft/releases/latest):
 
 | File | What it is |
 |---|---|
